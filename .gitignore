@@ -1,0 +1,31 @@
+# Médias et fichiers générés (on garde seulement les .gitkeep)
+media/videos/*
+!media/videos/.gitkeep
+media/audio/*
+!media/audio/.gitkeep
+media/hls/
+media/thumbs/
+media/catalog.json
+media/test.txt
+
+# Journaux et captures
+logs/
+*.log
+*.pcap
+*.pcapng
+
+# Sauvegardes et secrets
+*.bak
+*.tmp
+.env
+
+# Python, Node, Expo
+__pycache__/
+node_modules/
+.expo/
+*.apk
+*.aab
+
+# Éditeur et système
+.vscode/
+.DS_Store

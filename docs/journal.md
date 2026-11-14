@@ -18,3 +18,10 @@
 - Démarrage HTTP : médiane 0,13 s (10 essais).
 - 15 tests de fumée au vert, accès depuis le téléphone confirmé.
 - Compose validé par `down` puis `up -d` : décision D3.
+
+## Jour 4 : le catalogue
+- Générateur `scripts/build_catalog.py` : durée, codecs, résolution et miniature via ffprobe et ffmpeg.
+- Le catalogue contient ports et chemins, jamais d'adresse IP (décision D5).
+- `publier.sh` lit le catalogue : un média = un id = un nom de flux (`fable`, `fable_webrtc`).
+- Tests : l'id devient un paramètre ; un 16e test vérifie la présence du média dans le catalogue.
+- Git : branche `feat/catalogue`, clé SSH déjà configurée (une clé suffit pour tous les dépôts).

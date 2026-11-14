@@ -69,5 +69,5 @@ Branches : `main` reste fonctionnelle ; une branche courte par tâche ; un tag p
 - [x] Jour 1 : réseau local, IP, ports, HTTP
 - [x] Jour 2 : MediaMTX, publication et lecture RTSP, HLS, WebRTC
 - [x] Jour 3 : Nginx, HTTP Range, tests de fumée, accès depuis le téléphone
-- [ ] Jour 4 : catalogue généré
+- [x] Jour 4 : catalogue généré (build_catalog.py), flux publiés sous l'id
 - [ ] Application mobile, mesures de qualité, déploiement, rapport

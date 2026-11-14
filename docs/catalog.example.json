@@ -1,0 +1,210 @@
+{
+  "version": 1,
+  "generated": "2026-11-13T22:01:52+00:00",
+  "protocols": {
+    "http": {
+      "scheme": "http",
+      "port": 8080
+    },
+    "hls": {
+      "scheme": "http",
+      "port": 8888
+    },
+    "rtsp": {
+      "scheme": "rtsp",
+      "port": 8554
+    },
+    "webrtc": {
+      "scheme": "http",
+      "port": 8889
+    }
+  },
+  "items": [
+    {
+      "id": "augmentation",
+      "type": "video",
+      "title": "augmentation",
+      "duration": 28.03,
+      "size_bytes": 1892048,
+      "bitrate_kbps": 540,
+      "audio_codec": "aac",
+      "paths": {
+        "http": "/videos/augmentation.mp4",
+        "hls": "/augmentation/index.m3u8",
+        "rtsp": "/augmentation",
+        "webrtc": "/augmentation_webrtc"
+      },
+      "video_codec": "h264",
+      "width": 576,
+      "height": 1024,
+      "thumbnail": "/thumbs/augmentation.jpg"
+    },
+    {
+      "id": "claude_server",
+      "type": "video",
+      "title": "claude server",
+      "duration": 40.27,
+      "size_bytes": 3601857,
+      "bitrate_kbps": 716,
+      "audio_codec": "aac",
+      "paths": {
+        "http": "/videos/claude_server.mp4",
+        "hls": "/claude_server/index.m3u8",
+        "rtsp": "/claude_server",
+        "webrtc": "/claude_server_webrtc"
+      },
+      "video_codec": "h264",
+      "width": 576,
+      "height": 1024,
+      "thumbnail": "/thumbs/claude_server.jpg"
+    },
+    {
+      "id": "claude_whatsap",
+      "type": "video",
+      "title": "claude whatsap",
+      "duration": 58.57,
+      "size_bytes": 5561660,
+      "bitrate_kbps": 760,
+      "audio_codec": "aac",
+      "paths": {
+        "http": "/videos/claude_whatsap.mp4",
+        "hls": "/claude_whatsap/index.m3u8",
+        "rtsp": "/claude_whatsap",
+        "webrtc": "/claude_whatsap_webrtc"
+      },
+      "video_codec": "h264",
+      "width": 576,
+      "height": 1024,
+      "thumbnail": "/thumbs/claude_whatsap.jpg"
+    },
+    {
+      "id": "fable",
+      "type": "video",
+      "title": "fable",
+      "duration": 42.67,
+      "size_bytes": 3157465,
+      "bitrate_kbps": 592,
+      "audio_codec": "aac",
+      "paths": {
+        "http": "/videos/fable.mp4",
+        "hls": "/fable/index.m3u8",
+        "rtsp": "/fable",
+        "webrtc": "/fable_webrtc"
+      },
+      "video_codec": "h264",
+      "width": 576,
+      "height": 1024,
+      "thumbnail": "/thumbs/fable.jpg"
+    },
+    {
+      "id": "k8",
+      "type": "video",
+      "title": "k8",
+      "duration": 109.99,
+      "size_bytes": 13350465,
+      "bitrate_kbps": 971,
+      "audio_codec": "aac",
+      "paths": {
+        "http": "/videos/k8.mp4",
+        "hls": "/k8/index.m3u8",
+        "rtsp": "/k8",
+        "webrtc": "/k8_webrtc"
+      },
+      "video_codec": "h264",
+      "width": 576,
+      "height": 1024,
+      "thumbnail": "/thumbs/k8.jpg"
+    },
+    {
+      "id": "pilote",
+      "type": "video",
+      "title": "pilote",
+      "duration": 48.47,
+      "size_bytes": 3920062,
+      "bitrate_kbps": 647,
+      "audio_codec": "aac",
+      "paths": {
+        "http": "/videos/pilote.mp4",
+        "hls": "/pilote/index.m3u8",
+        "rtsp": "/pilote",
+        "webrtc": "/pilote_webrtc"
+      },
+      "video_codec": "h264",
+      "width": 576,
+      "height": 1024,
+      "thumbnail": "/thumbs/pilote.jpg"
+    },
+    {
+      "id": "damso_chrome",
+      "type": "audio",
+      "title": "Damso CHROME",
+      "duration": 155.12,
+      "size_bytes": 6292866,
+      "bitrate_kbps": 325,
+      "audio_codec": "mp3",
+      "paths": {
+        "http": "/audio/Damso_CHROME.mp3"
+      }
+    },
+    {
+      "id": "damso_consequences",
+      "type": "audio",
+      "title": "Damso Consequences",
+      "duration": 207.93,
+      "size_bytes": 8407774,
+      "bitrate_kbps": 323,
+      "audio_codec": "mp3",
+      "paths": {
+        "http": "/audio/Damso_Consequences.mp3"
+      }
+    },
+    {
+      "id": "damso_deuxtoilesdemer",
+      "type": "audio",
+      "title": "Damso DEUXTOILESDEMER",
+      "duration": 315.64,
+      "size_bytes": 12725949,
+      "bitrate_kbps": 323,
+      "audio_codec": "mp3",
+      "paths": {
+        "http": "/audio/Damso_DEUXTOILESDEMER.mp3"
+      }
+    },
+    {
+      "id": "damso_police",
+      "type": "audio",
+      "title": "Damso Police",
+      "duration": 168.72,
+      "size_bytes": 6961177,
+      "bitrate_kbps": 330,
+      "audio_codec": "mp3",
+      "paths": {
+        "http": "/audio/Damso_Police.mp3"
+      }
+    },
+    {
+      "id": "michaeljackson_theladyinmylife",
+      "type": "audio",
+      "title": "MichaelJackson TheLadyinMyLife",
+      "duration": 300.13,
+      "size_bytes": 12127903,
+      "bitrate_kbps": 323,
+      "audio_codec": "mp3",
+      "paths": {
+        "http": "/audio/MichaelJackson_TheLadyinMyLife.mp3"
+      }
+    },
+    {
+      "id": "michaeljackson_prettyyoungthing",
+      "type": "audio",
+      "title": "MichaelJackson prettyYoungThing",
+      "duration": 239.06,
+      "size_bytes": 9685464,
+      "bitrate_kbps": 324,
+      "audio_codec": "mp3",
+      "paths": {
+        "http": "/audio/MichaelJackson_prettyYoungThing.mp3"
+      }
+    }
+  ]
+}

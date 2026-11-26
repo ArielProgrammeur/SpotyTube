@@ -1,6 +1,5 @@
-
 import hashlib
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 from uuid import UUID, uuid4
 
 import jwt
@@ -13,7 +12,6 @@ from argon2.exceptions import (
 from jwt import InvalidTokenError
 
 from app.core.config import settings
-
 
 TOKEN_ISSUER = "spotytube-api"
 
@@ -69,7 +67,7 @@ def _create_token(
 ) -> str:
     """Construit et signe un JWT."""
 
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
 
     payload = {
         "sub": str(user_id),

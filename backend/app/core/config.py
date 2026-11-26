@@ -1,4 +1,3 @@
-
 from typing import Literal
 
 from pydantic import SecretStr
@@ -26,6 +25,7 @@ class Settings(BaseSettings):
         extra="ignore",
     )
 
-#pydantic charge les parametres depuis le fichier .env.
-#pylance ne detecte pas cette injection automatiquement.
-settings = Settings() #pyright: ignore[reportCallIssue]
+
+# pydantic charge les parametres depuis le fichier .env.
+# pylance ne detecte pas cette injection automatiquement.
+settings = Settings()  # pyright: ignore[reportCallIssue]

@@ -11,7 +11,7 @@ export async function loadCatalogur(hote: string): Promise<Catalogue> {
         if (!response.ok) throw new Error (`Le serveur a repondu ${response.status}`);
         return (await response.json()) as Catalogue;
     }catch (e) {
-        if (e instanceof Error && e.name == 'AbortError') {
+        if (e instanceof Error && e.name === 'AbortError') {
             throw new Error ('Delai expire: Serveur Injoignable ?')
         }
         throw e;

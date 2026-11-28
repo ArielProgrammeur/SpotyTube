@@ -29,3 +29,23 @@ node_modules/
 # Éditeur et système
 .vscode/
 .DS_Store
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Python backend
+backend/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Secrets and environment
+.env
+backend/.env
+
+# Local databases
+*.sqlite
+*.sqlite3
